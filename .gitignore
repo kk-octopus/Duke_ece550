@@ -1,0 +1,22 @@
+# Quartus generated files
+db/
+incremental_db/
+output_files/
+
+# Simulation generated files
+simulation/qsim
+simulation/modelsim/
+work/
+
+# Temporary / log files
+*/log
+*.rpt
+*.bak
+*.tmp
+*~
+*.wlf
+
+# Windows
+Thumbs.db
+Desktop.ini
+
