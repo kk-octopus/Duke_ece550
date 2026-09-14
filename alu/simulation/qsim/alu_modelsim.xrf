@@ -1,8 +1,9 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/alu.v
 source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/cla_32bit.v
 source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/cla_16bit.v
 source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/cla_4bit.v
+source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/alu_tb.v
+source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/alu.v
 source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/Waveform.vwf
 source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/Waveform1.vwf
 source_file = 1, C:/Users/kt336/Desktop/ece 550/alu/Waveform2.vwf
