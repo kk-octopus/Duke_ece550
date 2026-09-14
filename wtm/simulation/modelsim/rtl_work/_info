@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kt336/Desktop/ece 550/wtm/simulation/modelsim
+vfull_adder
+Z1 !s110 1789144809
+!i10b 1
+!s100 92L0K`kOJ9n4Cna84a5ak0
+IDFe^U9C5z9`g>QN^]d^520
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1788539068
+8C:/Users/kt336/Desktop/ece 550/full_adder/full_adder.v
+FC:/Users/kt336/Desktop/ece 550/full_adder/full_adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1789144809.000000
+!s107 C:/Users/kt336/Desktop/ece 550/full_adder/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kt336/Desktop/ece 550/full_adder|C:/Users/kt336/Desktop/ece 550/full_adder/full_adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/kt336/Desktop/ece 550/full_adder}
+Z6 tCvgOpt 0
+vhalf_adder
+R1
+!i10b 1
+!s100 iS]Ug99Gn@k9I@;MN9o;D0
+IfQ2_@GMZ1Aim5eG2LiQ<P2
+R2
+R0
+w1789048513
+8C:/Users/kt336/Desktop/ece 550/wtm/half_adder.v
+FC:/Users/kt336/Desktop/ece 550/wtm/half_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kt336/Desktop/ece 550/wtm/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kt336/Desktop/ece 550/wtm|C:/Users/kt336/Desktop/ece 550/wtm/half_adder.v|
+!i113 1
+R5
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/kt336/Desktop/ece 550/wtm}
+R6
+vwtm
+R1
+!i10b 1
+!s100 4UGPgRnAaZQ=[kGG=@e=63
+IT?dPB8naURLGU7g4f_Gai1
+R2
+R0
+w1789100690
+8C:/Users/kt336/Desktop/ece 550/wtm/wtm.v
+FC:/Users/kt336/Desktop/ece 550/wtm/wtm.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kt336/Desktop/ece 550/wtm/wtm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kt336/Desktop/ece 550/wtm|C:/Users/kt336/Desktop/ece 550/wtm/wtm.v|
+!i113 1
+R5
+R7
+R6
+vwtm_tb
+!s110 1789144810
+!i10b 1
+!s100 E53fkTCP[;2?hJYS2[5V[3
+IVNZIdASRCzK`I`TPd8[O80
+R2
+R0
+w1789144517
+8C:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v
+FC:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1789144810.000000
+!s107 C:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kt336/Desktop/ece 550/wtm|C:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v|
+!i113 1
+R5
+R7
+R6

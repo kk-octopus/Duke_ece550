@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/wtm {C:/Users/kt336/Desktop/ece 550/wtm/wtm.v}
+vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/full_adder {C:/Users/kt336/Desktop/ece 550/full_adder/full_adder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/wtm {C:/Users/kt336/Desktop/ece 550/wtm/half_adder.v}
+

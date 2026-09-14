@@ -1,0 +1,710 @@
+$comment
+	File created using the following command:
+		vcd file alu.msim.vcd -direction
+$end
+$date
+	Mon Sep 14 00:06:32 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module alu_vlg_vec_tst $end
+$var reg 5 ! ctrl_ALUopcode [4:0] $end
+$var reg 5 " ctrl_shiftamt [4:0] $end
+$var reg 32 # data_operandA [31:0] $end
+$var reg 32 $ data_operandB [31:0] $end
+$var wire 1 % data_result [31] $end
+$var wire 1 & data_result [30] $end
+$var wire 1 ' data_result [29] $end
+$var wire 1 ( data_result [28] $end
+$var wire 1 ) data_result [27] $end
+$var wire 1 * data_result [26] $end
+$var wire 1 + data_result [25] $end
+$var wire 1 , data_result [24] $end
+$var wire 1 - data_result [23] $end
+$var wire 1 . data_result [22] $end
+$var wire 1 / data_result [21] $end
+$var wire 1 0 data_result [20] $end
+$var wire 1 1 data_result [19] $end
+$var wire 1 2 data_result [18] $end
+$var wire 1 3 data_result [17] $end
+$var wire 1 4 data_result [16] $end
+$var wire 1 5 data_result [15] $end
+$var wire 1 6 data_result [14] $end
+$var wire 1 7 data_result [13] $end
+$var wire 1 8 data_result [12] $end
+$var wire 1 9 data_result [11] $end
+$var wire 1 : data_result [10] $end
+$var wire 1 ; data_result [9] $end
+$var wire 1 < data_result [8] $end
+$var wire 1 = data_result [7] $end
+$var wire 1 > data_result [6] $end
+$var wire 1 ? data_result [5] $end
+$var wire 1 @ data_result [4] $end
+$var wire 1 A data_result [3] $end
+$var wire 1 B data_result [2] $end
+$var wire 1 C data_result [1] $end
+$var wire 1 D data_result [0] $end
+$var wire 1 E isLessThan $end
+$var wire 1 F isNotEqual $end
+$var wire 1 G overflow $end
+
+$scope module i1 $end
+$var wire 1 H gnd $end
+$var wire 1 I vcc $end
+$var wire 1 J unknown $end
+$var tri1 1 K devclrn $end
+$var tri1 1 L devpor $end
+$var tri1 1 M devoe $end
+$var wire 1 N ctrl_ALUopcode[1]~input_o $end
+$var wire 1 O ctrl_ALUopcode[2]~input_o $end
+$var wire 1 P ctrl_ALUopcode[3]~input_o $end
+$var wire 1 Q ctrl_ALUopcode[4]~input_o $end
+$var wire 1 R ctrl_shiftamt[0]~input_o $end
+$var wire 1 S ctrl_shiftamt[1]~input_o $end
+$var wire 1 T ctrl_shiftamt[2]~input_o $end
+$var wire 1 U ctrl_shiftamt[3]~input_o $end
+$var wire 1 V ctrl_shiftamt[4]~input_o $end
+$var wire 1 W data_result[0]~output_o $end
+$var wire 1 X data_result[1]~output_o $end
+$var wire 1 Y data_result[2]~output_o $end
+$var wire 1 Z data_result[3]~output_o $end
+$var wire 1 [ data_result[4]~output_o $end
+$var wire 1 \ data_result[5]~output_o $end
+$var wire 1 ] data_result[6]~output_o $end
+$var wire 1 ^ data_result[7]~output_o $end
+$var wire 1 _ data_result[8]~output_o $end
+$var wire 1 ` data_result[9]~output_o $end
+$var wire 1 a data_result[10]~output_o $end
+$var wire 1 b data_result[11]~output_o $end
+$var wire 1 c data_result[12]~output_o $end
+$var wire 1 d data_result[13]~output_o $end
+$var wire 1 e data_result[14]~output_o $end
+$var wire 1 f data_result[15]~output_o $end
+$var wire 1 g data_result[16]~output_o $end
+$var wire 1 h data_result[17]~output_o $end
+$var wire 1 i data_result[18]~output_o $end
+$var wire 1 j data_result[19]~output_o $end
+$var wire 1 k data_result[20]~output_o $end
+$var wire 1 l data_result[21]~output_o $end
+$var wire 1 m data_result[22]~output_o $end
+$var wire 1 n data_result[23]~output_o $end
+$var wire 1 o data_result[24]~output_o $end
+$var wire 1 p data_result[25]~output_o $end
+$var wire 1 q data_result[26]~output_o $end
+$var wire 1 r data_result[27]~output_o $end
+$var wire 1 s data_result[28]~output_o $end
+$var wire 1 t data_result[29]~output_o $end
+$var wire 1 u data_result[30]~output_o $end
+$var wire 1 v data_result[31]~output_o $end
+$var wire 1 w isNotEqual~output_o $end
+$var wire 1 x isLessThan~output_o $end
+$var wire 1 y overflow~output_o $end
+$var wire 1 z data_operandA[0]~input_o $end
+$var wire 1 { data_operandB[0]~input_o $end
+$var wire 1 | adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out[0]~0_combout $end
+$var wire 1 } ctrl_ALUopcode[0]~input_o $end
+$var wire 1 ~ data_operandA[1]~input_o $end
+$var wire 1 !! data_operandB[1]~input_o $end
+$var wire 1 "! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|c2[0]~0_combout $end
+$var wire 1 #! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|WideOr0~0_combout $end
+$var wire 1 $! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|WideAnd0~0_combout $end
+$var wire 1 %! data_operandA[2]~input_o $end
+$var wire 1 &! data_operandB[2]~input_o $end
+$var wire 1 '! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|c4[0]~0_combout $end
+$var wire 1 (! data_operandA[3]~input_o $end
+$var wire 1 )! data_operandB[3]~input_o $end
+$var wire 1 *! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out[3]~1_combout $end
+$var wire 1 +! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out[3]~2_combout $end
+$var wire 1 ,! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out[3]~3_combout $end
+$var wire 1 -! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|WideOr3~0_combout $end
+$var wire 1 .! adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|WideOr3~1_combout $end
+$var wire 1 /! adder_32|block_cla16[0].Sixteen1|c1~0_combout $end
+$var wire 1 0! data_operandA[4]~input_o $end
+$var wire 1 1! data_operandB[4]~input_o $end
+$var wire 1 2! data_operandA[5]~input_o $end
+$var wire 1 3! data_operandB[5]~input_o $end
+$var wire 1 4! B_in[4]~0_combout $end
+$var wire 1 5! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|C1~0_combout $end
+$var wire 1 6! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|c3[0]~0_combout $end
+$var wire 1 7! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|WideOr0~0_combout $end
+$var wire 1 8! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|WideAnd0~0_combout $end
+$var wire 1 9! data_operandA[6]~input_o $end
+$var wire 1 :! data_operandB[6]~input_o $end
+$var wire 1 ;! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|c4[0]~0_combout $end
+$var wire 1 <! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|WideAnd1~0_combout $end
+$var wire 1 =! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|WideOr1~0_combout $end
+$var wire 1 >! data_operandA[7]~input_o $end
+$var wire 1 ?! data_operandB[7]~input_o $end
+$var wire 1 @! data_operandA[8]~input_o $end
+$var wire 1 A! data_operandB[8]~input_o $end
+$var wire 1 B! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|WideOr3~0_combout $end
+$var wire 1 C! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|WideOr3~1_combout $end
+$var wire 1 D! adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|WideAnd6~combout $end
+$var wire 1 E! adder_32|block_cla16[0].Sixteen1|WideOr0~0_combout $end
+$var wire 1 F! data_operandA[9]~input_o $end
+$var wire 1 G! data_operandB[9]~input_o $end
+$var wire 1 H! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|C1~0_combout $end
+$var wire 1 I! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|c2[0]~0_combout $end
+$var wire 1 J! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|c3[0]~0_combout $end
+$var wire 1 K! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|WideOr0~0_combout $end
+$var wire 1 L! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|WideAnd0~0_combout $end
+$var wire 1 M! data_operandA[10]~input_o $end
+$var wire 1 N! data_operandB[10]~input_o $end
+$var wire 1 O! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|c4[0]~0_combout $end
+$var wire 1 P! data_operandA[11]~input_o $end
+$var wire 1 Q! data_operandB[11]~input_o $end
+$var wire 1 R! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|c2[0]~1_combout $end
+$var wire 1 S! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|out[3]~2_combout $end
+$var wire 1 T! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|out[3]~3_combout $end
+$var wire 1 U! data_operandA[12]~input_o $end
+$var wire 1 V! data_operandB[12]~input_o $end
+$var wire 1 W! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|WideAnd6~combout $end
+$var wire 1 X! adder_32|block_cla16[0].Sixteen1|WideOr1~0_combout $end
+$var wire 1 Y! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|WideOr3~0_combout $end
+$var wire 1 Z! adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|WideOr3~1_combout $end
+$var wire 1 [! adder_32|block_cla16[0].Sixteen1|WideOr1~1_combout $end
+$var wire 1 \! data_operandA[13]~input_o $end
+$var wire 1 ]! data_operandB[13]~input_o $end
+$var wire 1 ^! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|C1~0_combout $end
+$var wire 1 _! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|c2[0]~0_combout $end
+$var wire 1 `! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|WideOr0~2_combout $end
+$var wire 1 a! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|WideAnd0~0_combout $end
+$var wire 1 b! data_operandA[14]~input_o $end
+$var wire 1 c! data_operandB[14]~input_o $end
+$var wire 1 d! data_operandA[15]~input_o $end
+$var wire 1 e! data_operandB[15]~input_o $end
+$var wire 1 f! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|c4[0]~0_combout $end
+$var wire 1 g! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|c3[0]~0_combout $end
+$var wire 1 h! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|WideOr1~0_combout $end
+$var wire 1 i! adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|WideOr1~combout $end
+$var wire 1 j! data_operandA[16]~input_o $end
+$var wire 1 k! data_operandB[16]~input_o $end
+$var wire 1 l! B_in[16]~1_combout $end
+$var wire 1 m! adder_32|block_cla16[0].Sixteen1|WideAnd3~0_combout $end
+$var wire 1 n! adder_32|c1~combout $end
+$var wire 1 o! adder_32|block_cla16[0].Sixteen1|WideOr3~0_combout $end
+$var wire 1 p! adder_32|block_cla16[0].Sixteen1|WideOr3~1_combout $end
+$var wire 1 q! adder_32|block_cla16[0].Sixteen1|c2[0]~0_combout $end
+$var wire 1 r! adder_32|block_cla16[0].Sixteen1|WideOr3~2_combout $end
+$var wire 1 s! adder_32|block_cla16[0].Sixteen1|WideOr3~3_combout $end
+$var wire 1 t! data_operandA[17]~input_o $end
+$var wire 1 u! data_operandB[17]~input_o $end
+$var wire 1 v! adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|C1~0_combout $end
+$var wire 1 w! adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|c3[0]~0_combout $end
+$var wire 1 x! adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|WideOr0~0_combout $end
+$var wire 1 y! adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|WideAnd0~0_combout $end
+$var wire 1 z! adder_32|block_cla16[0].Sixteen1|WideOr3~4_combout $end
+$var wire 1 {! adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|WideAnd0~1_combout $end
+$var wire 1 |! data_operandA[18]~input_o $end
+$var wire 1 }! data_operandB[18]~input_o $end
+$var wire 1 ~! adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|c4[0]~0_combout $end
+$var wire 1 !" adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|WideAnd1~0_combout $end
+$var wire 1 "" adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|WideOr1~0_combout $end
+$var wire 1 #" data_operandA[19]~input_o $end
+$var wire 1 $" data_operandB[19]~input_o $end
+$var wire 1 %" adder_32|block_cla16[1].Sixteen1|c1~0_combout $end
+$var wire 1 &" adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|WideOr3~0_combout $end
+$var wire 1 '" adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|WideOr3~1_combout $end
+$var wire 1 (" data_operandA[20]~input_o $end
+$var wire 1 )" data_operandB[20]~input_o $end
+$var wire 1 *" data_operandA[21]~input_o $end
+$var wire 1 +" data_operandB[21]~input_o $end
+$var wire 1 ," B_in[20]~2_combout $end
+$var wire 1 -" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|C1~0_combout $end
+$var wire 1 ." adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|c3[0]~0_combout $end
+$var wire 1 /" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|WideOr0~0_combout $end
+$var wire 1 0" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|WideAnd0~0_combout $end
+$var wire 1 1" data_operandA[22]~input_o $end
+$var wire 1 2" data_operandB[22]~input_o $end
+$var wire 1 3" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|c4[0]~0_combout $end
+$var wire 1 4" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|WideAnd1~0_combout $end
+$var wire 1 5" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|WideOr1~0_combout $end
+$var wire 1 6" data_operandA[23]~input_o $end
+$var wire 1 7" data_operandB[23]~input_o $end
+$var wire 1 8" data_operandA[24]~input_o $end
+$var wire 1 9" data_operandB[24]~input_o $end
+$var wire 1 :" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|WideOr3~0_combout $end
+$var wire 1 ;" adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|WideOr3~1_combout $end
+$var wire 1 <" adder_32|block_cla16[1].Sixteen1|c2[0]~0_combout $end
+$var wire 1 =" adder_32|block_cla16[1].Sixteen1|WideOr0~combout $end
+$var wire 1 >" data_operandA[25]~input_o $end
+$var wire 1 ?" data_operandB[25]~input_o $end
+$var wire 1 @" adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|C1~0_combout $end
+$var wire 1 A" data_operandB[26]~input_o $end
+$var wire 1 B" data_operandA[26]~input_o $end
+$var wire 1 C" adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|g[1]~0_combout $end
+$var wire 1 D" adder_32|block_cla16[1].Sixteen1|WideOr1~0_combout $end
+$var wire 1 E" adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|WideAnd0~0_combout $end
+$var wire 1 F" adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|WideOr0~combout $end
+$var wire 1 G" B_in[26]~3_combout $end
+$var wire 1 H" data_operandA[27]~input_o $end
+$var wire 1 I" data_operandB[27]~input_o $end
+$var wire 1 J" adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|out[3]~4_combout $end
+$var wire 1 K" adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|out[3]~5_combout $end
+$var wire 1 L" data_operandB[28]~input_o $end
+$var wire 1 M" data_operandA[28]~input_o $end
+$var wire 1 N" adder_32|block_cla16[1].Sixteen1|WideOr1~1_combout $end
+$var wire 1 O" adder_32|block_cla16[1].Sixteen1|WideOr1~2_combout $end
+$var wire 1 P" adder_32|block_cla16[1].Sixteen1|WideOr1~3_combout $end
+$var wire 1 Q" adder_32|block_cla16[1].Sixteen1|WideOr1~4_combout $end
+$var wire 1 R" adder_32|block_cla16[1].Sixteen1|WideOr1~5_combout $end
+$var wire 1 S" adder_32|block_cla16[1].Sixteen1|WideOr1~6_combout $end
+$var wire 1 T" data_operandA[29]~input_o $end
+$var wire 1 U" data_operandB[29]~input_o $end
+$var wire 1 V" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|C1~0_combout $end
+$var wire 1 W" B_in[28]~4_combout $end
+$var wire 1 X" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|WideAnd0~0_combout $end
+$var wire 1 Y" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|g[1]~0_combout $end
+$var wire 1 Z" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|c2[0]~0_combout $end
+$var wire 1 [" data_operandA[30]~input_o $end
+$var wire 1 \" data_operandB[30]~input_o $end
+$var wire 1 ]" data_operandA[31]~input_o $end
+$var wire 1 ^" data_operandB[31]~input_o $end
+$var wire 1 _" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|WideAnd2~2_combout $end
+$var wire 1 `" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|c4[0]~0_combout $end
+$var wire 1 a" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|c3[0]~0_combout $end
+$var wire 1 b" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|WideAnd4~0_combout $end
+$var wire 1 c" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|WideOr1~combout $end
+$var wire 1 d" comb~0_combout $end
+$var wire 1 e" comb~1_combout $end
+$var wire 1 f" comb~2_combout $end
+$var wire 1 g" comb~3_combout $end
+$var wire 1 h" comb~4_combout $end
+$var wire 1 i" comb~5_combout $end
+$var wire 1 j" comb~6_combout $end
+$var wire 1 k" comb~7_combout $end
+$var wire 1 l" comb~8_combout $end
+$var wire 1 m" comb~9_combout $end
+$var wire 1 n" comb~10_combout $end
+$var wire 1 o" comb~11_combout $end
+$var wire 1 p" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|WideOr2~0_combout $end
+$var wire 1 q" comb~12_combout $end
+$var wire 1 r" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|WideOr2~combout $end
+$var wire 1 s" adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|overflow~combout $end
+$var wire 1 t" adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|p [3] $end
+$var wire 1 u" adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|p [2] $end
+$var wire 1 v" adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|p [1] $end
+$var wire 1 w" adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|p [0] $end
+$var wire 1 x" adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|p [3] $end
+$var wire 1 y" adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|p [2] $end
+$var wire 1 z" adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|p [1] $end
+$var wire 1 {" adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|p [0] $end
+$var wire 1 |" adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|out [3] $end
+$var wire 1 }" adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|out [2] $end
+$var wire 1 ~" adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|out [1] $end
+$var wire 1 !# adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|out [0] $end
+$var wire 1 "# adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|p [3] $end
+$var wire 1 ## adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|p [2] $end
+$var wire 1 $# adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|p [1] $end
+$var wire 1 %# adder_32|block_cla16[0].Sixteen1|block_cla4[1].four1|p [0] $end
+$var wire 1 &# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|out [3] $end
+$var wire 1 '# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|out [2] $end
+$var wire 1 (# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|out [1] $end
+$var wire 1 )# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|out [0] $end
+$var wire 1 *# adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out [3] $end
+$var wire 1 +# adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out [2] $end
+$var wire 1 ,# adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out [1] $end
+$var wire 1 -# adder_32|block_cla16[0].Sixteen1|block_cla4[0].four1|out [0] $end
+$var wire 1 .# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|out [3] $end
+$var wire 1 /# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|out [2] $end
+$var wire 1 0# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|out [1] $end
+$var wire 1 1# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|out [0] $end
+$var wire 1 2# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|p [3] $end
+$var wire 1 3# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|p [2] $end
+$var wire 1 4# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|p [1] $end
+$var wire 1 5# adder_32|block_cla16[0].Sixteen1|block_cla4[2].four1|p [0] $end
+$var wire 1 6# adder_32|block_cla16[0].Sixteen1|c4 [3] $end
+$var wire 1 7# adder_32|block_cla16[0].Sixteen1|c4 [2] $end
+$var wire 1 8# adder_32|block_cla16[0].Sixteen1|c4 [1] $end
+$var wire 1 9# adder_32|block_cla16[0].Sixteen1|c4 [0] $end
+$var wire 1 :# adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|out [3] $end
+$var wire 1 ;# adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|out [2] $end
+$var wire 1 <# adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|out [1] $end
+$var wire 1 =# adder_32|block_cla16[0].Sixteen1|block_cla4[3].four1|out [0] $end
+$var wire 1 ># adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|out [3] $end
+$var wire 1 ?# adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|out [2] $end
+$var wire 1 @# adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|out [1] $end
+$var wire 1 A# adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|out [0] $end
+$var wire 1 B# adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|p [3] $end
+$var wire 1 C# adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|p [2] $end
+$var wire 1 D# adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|p [1] $end
+$var wire 1 E# adder_32|block_cla16[1].Sixteen1|block_cla4[0].four1|p [0] $end
+$var wire 1 F# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|p [3] $end
+$var wire 1 G# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|p [2] $end
+$var wire 1 H# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|p [1] $end
+$var wire 1 I# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|p [0] $end
+$var wire 1 J# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|out [3] $end
+$var wire 1 K# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|out [2] $end
+$var wire 1 L# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|out [1] $end
+$var wire 1 M# adder_32|block_cla16[1].Sixteen1|block_cla4[1].four1|out [0] $end
+$var wire 1 N# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|p [3] $end
+$var wire 1 O# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|p [2] $end
+$var wire 1 P# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|p [1] $end
+$var wire 1 Q# adder_32|block_cla16[1].Sixteen1|block_cla4[2].four1|p [0] $end
+$var wire 1 R# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|p [3] $end
+$var wire 1 S# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|p [2] $end
+$var wire 1 T# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|p [1] $end
+$var wire 1 U# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|p [0] $end
+$var wire 1 V# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|out [3] $end
+$var wire 1 W# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|out [2] $end
+$var wire 1 X# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|out [1] $end
+$var wire 1 Y# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|out [0] $end
+$var wire 1 Z# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|g [3] $end
+$var wire 1 [# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|g [2] $end
+$var wire 1 \# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|g [1] $end
+$var wire 1 ]# adder_32|block_cla16[1].Sixteen1|block_cla4[3].four1|g [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b1111111111111111111111111111111 #
+b1 $
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+1%
+0E
+1F
+1G
+0H
+1I
+xJ
+1K
+1L
+1M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+1v
+1w
+0x
+1y
+1z
+1{
+0|
+0}
+1~
+0!!
+1"!
+0#!
+0$!
+1%!
+0&!
+0'!
+1(!
+0)!
+1*!
+1+!
+0,!
+0-!
+1.!
+0/!
+10!
+01!
+12!
+03!
+04!
+15!
+06!
+17!
+18!
+19!
+0:!
+0;!
+0<!
+0=!
+1>!
+0?!
+1@!
+0A!
+0B!
+0C!
+1D!
+1E!
+1F!
+0G!
+1H!
+0I!
+0J!
+1K!
+1L!
+1M!
+0N!
+0O!
+1P!
+0Q!
+0R!
+1S!
+0T!
+1U!
+0V!
+1W!
+1X!
+0Y!
+0Z!
+1[!
+1\!
+0]!
+1^!
+0_!
+1`!
+1a!
+1b!
+0c!
+1d!
+0e!
+0f!
+0g!
+0h!
+1i!
+1j!
+0k!
+0l!
+1m!
+0n!
+0o!
+0p!
+1q!
+1r!
+1s!
+1t!
+0u!
+1v!
+0w!
+1x!
+1y!
+0z!
+1{!
+1|!
+0}!
+0~!
+0!"
+0""
+1#"
+0$"
+1%"
+0&"
+0'"
+1("
+0)"
+1*"
+0+"
+0,"
+1-"
+0."
+1/"
+10"
+11"
+02"
+03"
+04"
+05"
+16"
+07"
+18"
+09"
+0:"
+0;"
+1<"
+1="
+1>"
+0?"
+1@"
+0A"
+1B"
+0C"
+0D"
+1E"
+1F"
+0G"
+1H"
+0I"
+1J"
+0K"
+0L"
+1M"
+1N"
+1O"
+0P"
+0Q"
+0R"
+1S"
+1T"
+0U"
+1V"
+0W"
+1X"
+0Y"
+0Z"
+1["
+0\"
+0]"
+0^"
+1_"
+0`"
+0a"
+0b"
+1c"
+0d"
+0e"
+0f"
+0g"
+0h"
+0i"
+0j"
+0k"
+1l"
+0m"
+1n"
+1o"
+0p"
+0q"
+0r"
+1s"
+zw"
+1v"
+1u"
+1t"
+z{"
+1z"
+1y"
+1x"
+0!#
+0~"
+0}"
+0|"
+1%#
+1$#
+1##
+1"#
+0)#
+0(#
+0'#
+z&#
+z-#
+0,#
+0+#
+z*#
+01#
+00#
+0/#
+z.#
+z5#
+14#
+13#
+12#
+09#
+z8#
+z7#
+z6#
+0=#
+0<#
+0;#
+0:#
+0A#
+0@#
+0?#
+0>#
+zE#
+1D#
+1C#
+1B#
+1I#
+1H#
+1G#
+1F#
+0M#
+0L#
+0K#
+0J#
+zQ#
+1P#
+zO#
+1N#
+zU#
+1T#
+1S#
+0R#
+0Y#
+0X#
+0W#
+1V#
+z]#
+z\#
+z[#
+0Z#
+$end
+#1000000

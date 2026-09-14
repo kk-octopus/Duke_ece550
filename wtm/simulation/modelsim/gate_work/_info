@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kt336/Desktop/ece 550/wtm/simulation/modelsim
+vhard_block
+Z1 !s110 1789144748
+!i10b 1
+!s100 koz=9fVD<94TcHjYm90:42
+I@ccnAf21ZDV>g]A5O444H0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1789100757
+Z4 8wtm_7_1200mv_85c_slow.vo
+Z5 Fwtm_7_1200mv_85c_slow.vo
+L0 1276
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1789144748.000000
+Z8 !s107 wtm_7_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|wtm_7_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vwtm
+R1
+!i10b 1
+!s100 Im9SGk;>fRjzzYKb=9Rak1
+IMM8]^W7XPZHj3jQ8]dbFd0
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vwtm_tb
+R1
+!i10b 1
+!s100 E53fkTCP[;2?hJYS2[5V[3
+IVNZIdASRCzK`I`TPd8[O80
+R2
+R0
+w1789144517
+8C:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v
+FC:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kt336/Desktop/ece 550/wtm|C:/Users/kt336/Desktop/ece 550/wtm/wtm_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+C:/Users/kt336/Desktop/ece 550/wtm}
+R12
