@@ -33,7 +33,7 @@ genvar i;
                      .cout(cout), 
                      .overflow(overflow)
                      );
-
+assign equal_result[0] = 1'b0;
 genvar j;
    generate 
       for(j = 0; j < 32; j = j + 1) begin: equal_module
