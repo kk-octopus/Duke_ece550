@@ -9,10 +9,10 @@ output [31:0] result;
 
 wire sel_math;
    or(sel_math, opcode[1], opcode[2]);
-wire [31:0] normal, logic, shift;
+wire [31:0] normal, logic_result, shift;
 assign result = sel_math ? normal : math;
 assign shift = opcode[0] ? sra_result : sll_result;
-assign logic = opcode[0] ? or_result : and_result;
-assign normal = opcode[2] ? shift : logic;
+assign logic_result = opcode[0] ? or_result : and_result;
+assign normal = opcode[2] ? shift : logic_result;
 
 endmodule

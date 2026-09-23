@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kt336/Desktop/ece 550/sequence_detector/simulation/modelsim
+vsequence_detector
+!s110 1789749582
+!i10b 1
+!s100 F7Kz:Lbi5nJDX`NDaF>0c3
+I8LOKeYzXnF04P?KVa_g5C1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1789749045
+8C:/Users/kt336/Desktop/ece 550/fsm/sequence_detector.v
+FC:/Users/kt336/Desktop/ece 550/fsm/sequence_detector.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1789749582.000000
+!s107 C:/Users/kt336/Desktop/ece 550/fsm/sequence_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kt336/Desktop/ece 550/fsm|C:/Users/kt336/Desktop/ece 550/fsm/sequence_detector.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/kt336/Desktop/ece 550/fsm}
+Z5 tCvgOpt 0
+vsequence_detector_tb
+!s110 1789749583
+!i10b 1
+!s100 6moI[X]SAb4Ai>76hLh3S2
+I4F5?NMk:1Cnc?[@Xj0=[I3
+R1
+R0
+w1789749558
+8C:/Users/kt336/Desktop/ece 550/sequence_detector/../fsm/sequence_detector_tb.v
+FC:/Users/kt336/Desktop/ece 550/sequence_detector/../fsm/sequence_detector_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/kt336/Desktop/ece 550/sequence_detector/../fsm/sequence_detector_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kt336/Desktop/ece 550/sequence_detector/../fsm|C:/Users/kt336/Desktop/ece 550/sequence_detector/../fsm/sequence_detector_tb.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work {+incdir+C:/Users/kt336/Desktop/ece 550/sequence_detector/../fsm}
+R5

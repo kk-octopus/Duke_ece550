@@ -10,64 +10,119 @@
 # Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/sra.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:29:59 on Sep 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/sra.v 
+# -- Compiling module sra
+# 
+# Top level modules:
+# 	sra
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/sll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:29:59 on Sep 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/sll.v 
+# -- Compiling module sll
+# 
+# Top level modules:
+# 	sll
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/or32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:29:59 on Sep 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/or32.v 
+# -- Compiling module or32
+# 
+# Top level modules:
+# 	or32
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/mux5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:29:59 on Sep 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/mux5.v 
+# -- Compiling module mux5
+# 
+# Top level modules:
+# 	mux5
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/and32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:29:59 on Sep 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/and32.v 
+# -- Compiling module and32
+# 
+# Top level modules:
+# 	and32
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/cla_32bit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:36:54 on Sep 14,2026
+# Start time: 17:29:59 on Sep 23,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/cla_32bit.v 
 # -- Compiling module cla_32bit
 # 
 # Top level modules:
 # 	cla_32bit
-# End time: 13:36:54 on Sep 14,2026, Elapsed time: 0:00:00
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/cla_16bit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:36:54 on Sep 14,2026
+# Start time: 17:29:59 on Sep 23,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/cla_16bit.v 
 # -- Compiling module cla_16bit
 # 
 # Top level modules:
 # 	cla_16bit
-# End time: 13:36:54 on Sep 14,2026, Elapsed time: 0:00:00
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/cla_4bit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:36:54 on Sep 14,2026
+# Start time: 17:29:59 on Sep 23,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/cla_4bit.v 
 # -- Compiling module cla_4bit
 # 
 # Top level modules:
 # 	cla_4bit
-# End time: 13:36:54 on Sep 14,2026, Elapsed time: 0:00:00
+# End time: 17:29:59 on Sep 23,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:36:54 on Sep 14,2026
+# Start time: 17:29:59 on Sep 23,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 13:36:54 on Sep 14,2026, Elapsed time: 0:00:00
+# End time: 17:30:00 on Sep 23,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/alu_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/kt336/Desktop/ece\ 550/alu {C:/Users/kt336/Desktop/ece 550/alu/alu_tb_enhanced.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:36:54 on Sep 14,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/alu_tb.v 
-# -- Compiling module alu_tb
+# Start time: 17:30:00 on Sep 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kt336/Desktop/ece 550/alu" C:/Users/kt336/Desktop/ece 550/alu/alu_tb_enhanced.v 
+# -- Compiling module alu_tb_enhanced
 # 
 # Top level modules:
-# 	alu_tb
-# End time: 13:36:54 on Sep 14,2026, Elapsed time: 0:00:00
+# 	alu_tb_enhanced
+# End time: 17:30:00 on Sep 23,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
-# Start time: 13:36:55 on Sep 14,2026
-# Loading work.alu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb_enhanced
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb_enhanced 
+# Start time: 17:30:00 on Sep 23,2026
+# Loading work.alu_tb_enhanced
 # Loading work.alu
 # Loading work.cla_32bit
+# Loading work.and32
+# Loading work.or32
+# Loading work.sll
+# Loading work.sra
+# Loading work.mux5
 # Loading work.cla_16bit
 # Loading work.cla_4bit
 # 
@@ -77,10 +132,16 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-#                    0 << Starting the Simulation >>
-# The simulation completed without errors
-# ** Note: $stop    : C:/Users/kt336/Desktop/ece 550/alu/alu_tb.v(51)
-#    Time: 1560 ns  Iteration: 1  Instance: /alu_tb
-# Break in Module alu_tb at C:/Users/kt336/Desktop/ece 550/alu/alu_tb.v line 51
-# End time: 13:37:34 on Sep 14,2026, Elapsed time: 0:00:39
+# ============================================================
+# Starting enhanced ECE 550 Checkpoint 2 ALU verification
+# ============================================================
+# ============================================================
+# Completed 1089 test cases and 1550 signal checks.
+# PASS: all checks completed without errors.
+# ============================================================
+# ** Note: $finish    : C:/Users/kt336/Desktop/ece 550/alu/alu_tb_enhanced.v(319)
+#    Time: 21781 ns  Iteration: 0  Instance: /alu_tb_enhanced
+# 1
+# Break in Module alu_tb_enhanced at C:/Users/kt336/Desktop/ece 550/alu/alu_tb_enhanced.v line 319
+# End time: 17:30:14 on Sep 23,2026, Elapsed time: 0:00:14
 # Errors: 0, Warnings: 0

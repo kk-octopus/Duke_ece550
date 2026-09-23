@@ -10,7 +10,7 @@ module sll(a, amount, sll);
     assign shift2 = {out1[29:0], 2'b00};
     assign shift3 = {out2[27:0], 4'b0000};
     assign shift4 = {out3[23:0], 8'b00000000};
-    assign shift5 = {out4[15:0], 16'b00000000000000000000};
+    assign shift5 = {out4[15:0], 16'b0000000000000000};
     assign out1 = amount[0] ? shift1 : a;
     assign out2 = amount[1] ? shift2 : out1;
     assign out3 = amount[2] ? shift3 : out2;
